@@ -6,7 +6,7 @@ public class KalkulatorSederhana {
 
         Scanner sc = new Scanner(System.in);
 
-        System.out.print("Nomor1 : ");
+        System.out.print("\nNomor1 : ");
         int Nomor1 = sc.nextInt();
         System.out.print("Nomor2 : ");
         int Nomor2 = sc.nextInt();
@@ -29,6 +29,6 @@ public class KalkulatorSederhana {
         System.out.println("Hasil dari kurang : " + hasil_2);
         System.out.println("Hasil dari kali   : " + hasil_3);
         System.out.println("Hasil dari bagi   : " + hasil_4);
-        System.out.println("=== TERIMA KASIH ===");
+        System.out.println("\n=== TERIMA KASIH ===");
     }
 }
