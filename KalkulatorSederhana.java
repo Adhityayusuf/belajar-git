@@ -1,22 +1,34 @@
+import java.util.Scanner;
+
 public class KalkulatorSederhana {
     public static void main(String[] args) {
-        byte x = 5;
-        byte y = 7;
+        System.out.println("=== KALKULATOR SEDERHANA ===");
 
-        int hasil_1;
-        int hasil_2;
-        int hasil_3;
-        int hasil_4;
+        Scanner sc = new Scanner(System.in);
+
+        System.out.print("Nomor1 : ");
+        int Nomor1 = sc.nextInt();
+        System.out.print("Nomor2 : ");
+        int Nomor2 = sc.nextInt();
+        sc.close();
+
+        int x = Nomor1;
+        int y = Nomor2;
+
+        double hasil_1;
+        double hasil_2;
+        double hasil_3;
+        double hasil_4;
 
         hasil_1 = x + y;
         hasil_2 = x - y;
         hasil_3 = x * y;
-        hasil_4 = x % y;
+        hasil_4 = x / y;
 
-        System.out.println(hasil_1);
-        System.out.println(hasil_2);
-        System.out.println(hasil_3);
-        System.out.println(hasil_4);
-
+        System.out.println("Hasil dari tambah : " + hasil_1);
+        System.out.println("Hasil dari kurang : " + hasil_2);
+        System.out.println("Hasil dari kali   : " + hasil_3);
+        System.out.println("Hasil dari bagi   : " + hasil_4);
+        System.out.println("=== TERIMA KASIH ===");
     }
 }
