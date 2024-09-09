@@ -15,10 +15,12 @@ public class Biodata {
         System.out.print("Prodi: ");
         String Prodi = sc.nextLine();
 
-        System.out.print("Namaku : " + Nama);
-        System.out.print("Nimku  : " + Nim);
-        System.out.print("Kelasku: " + Kelas);
-        System.out.print("Prodiku: " + Prodi);
+        System.out.println("\n=== BIODATA DIRI KU ===");
+        System.out.println("Namaku : " + Nama);
+        System.out.println("Nimku  : " + Nim);
+        System.out.println("Kelasku: " + Kelas);
+        System.out.println("Prodiku: " + Prodi);
+        System.out.println("===   TERIMA KASIH  ===");
 
         sc.close();
     }
