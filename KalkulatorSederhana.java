@@ -29,6 +29,6 @@ public class KalkulatorSederhana {
         System.out.println("Hasil dari kurang : " + hasil_2);
         System.out.println("Hasil dari kali   : " + hasil_3);
         System.out.println("Hasil dari bagi   : " + hasil_4);
-        System.out.println("\n=== TERIMA KASIH ===");
+        
     }
 }
