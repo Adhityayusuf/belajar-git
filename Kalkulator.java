@@ -3,6 +3,7 @@ import java.util.Scanner;
 public class Kalkulator {
     public static void main(String[] args) {
         // a operator b
+        System.out.println(" ==== KALKULATOR SEDERHANA ==== ");
         Scanner inputUser;
         float a,b,hasil;
         char operator;
@@ -43,6 +44,6 @@ public class Kalkulator {
             // operator tidak ditemukan
             System.out.println("hasil tidak ditemukan");
         } 
-
+    System.out.println(" ==== TERIMA KASIH ==== ");
     }
 }
