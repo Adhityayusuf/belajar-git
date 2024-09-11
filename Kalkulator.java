@@ -44,6 +44,6 @@ public class Kalkulator {
             // operator tidak ditemukan
             System.out.println("hasil tidak ditemukan");
         }
-        System.out.println("\n  ====     TERIMA KASIH     ==== ");
+        System.out.println("\n  ====    TERIMA KASIH    ==== ");
     }
 }
