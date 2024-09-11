@@ -8,7 +8,7 @@ public class ContohTipeData {
         long saldo = 150000000;
         int angkaDesimal = 0x10;
         
-        System.out.println("Golongan darah\t\t\t\t\t\t: " + golonganDarah);
+        System.out.println("Golongan darah\t\t\t\t\t\t: " + (byte) golonganDarah);
         System.out.println("Jarak\t\t\t\t\t\t\t\t: " + jarak);
         System.out.println("Jumlah penduduk dalam satu dusun\t: " + jumlahPendudukDalamsatuDusun);
         System.out.println("Suhu\t\t\t\t\t\t\t\t: " + Suhu);
