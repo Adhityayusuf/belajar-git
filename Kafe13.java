@@ -1,6 +1,7 @@
 import java.util.Scanner;
 public class Kafe13 {
     public static void main(String[] args) {
+        System.out.println(" ==== STRUK PEMBAYARAN KAFE ==== ");
         Scanner input = new Scanner(System.in);
 
         boolean keanggotaan;
@@ -9,7 +10,7 @@ public class Kafe13 {
         float diskon = 10 / 100;
         byte totalbyte;
          
-        System.out.print("Masukkan Keanggotaan (true/false): ");
+        System.out.print("\nMasukkan Keanggotaan (true/false): ");
         keanggotaan = input.nextBoolean();
         System.out.print("Masukkan jumlah pembeli kopi: ");
         jmlkopi = input.nextInt();
@@ -26,6 +27,8 @@ public class Kafe13 {
         System.out.println("Keanggotaan pelanggan " + keanggotaan);
         System.out.println("Item pembelian " + jmlkopi + " kopi, " + jmlTeh + " teh, " + jmlRoti + "roti");
         System.out.println("Nominal bayar Rp " + nominalBayar);
+        
+        System.out.println("\n ==== TERIMA KASIH ==== ");
     }
 }
 
