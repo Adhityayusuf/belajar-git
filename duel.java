@@ -16,5 +16,25 @@ public class duel {
           }
         }while (!isRekening);
         
+        boolean isExit = false;
+        while (!isExit) {
+            System.out.println("Menu: 1. roti, 2. Sego padang, 3. exit");
+            int menu = sc.nextInt();
+
+            switch (menu) {
+                case 1:
+                  System.out.println("Selamat makan roti!");
+                  break;
+                case 2:
+                  System.out.println("Selamat makan sego padang!");
+                  break;
+                case 3:
+                  isExit = true;
+                  break;
+                default:
+                  System.out.println("Pilihan tidak valid");
+                  break;
+            }
+        }
     }
 }
