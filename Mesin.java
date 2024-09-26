@@ -10,19 +10,15 @@ public class Mesin {
         System.out.print("Masukkan Nilai Sensor PH: ");
         nliPH = sc.nextByte();
 
-        if (nliLembab <= 7) 
-        {
+        if (nliLembab <= 7) {
             System.out.println("Alat Penyiram Air Aktif!");
-        }else if (nliLembab >= 15 && nliLembab > 7) 
-        {
+        }else if (nliLembab >= 15) {
             System.out.println("Alat Penyiram Air Off!");
         }
 
-        if (nliPH <= 10 && nliLembab > 7)
-        {
+        if (nliPH <= 10 && nliLembab > 7){
             System.out.println("Alat Penyiram Pupuk Aktif!");
-        }else if (nliPH >= 20 && nliLembab <= 7)
-        {
+        }else if (nliPH >= 20){
             System.out.println("Alat Penyiram Pupuk Off!");
         }
     }
