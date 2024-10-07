@@ -11,10 +11,10 @@ public class percoban {
             if (i % Kelipatan == 0) {
                 total += i;
                 Counter++;
-            }
-        
-            System.out.println("Banyak bilangan " + Kelipatan + " dari 1 sampai 50 adalah " + Counter);
+
+                System.out.println("Banyak bilangan " + Kelipatan + " dari 1 sampai 50 adalah " + Counter);
             break;
+            }
         }
     }
 }
