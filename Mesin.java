@@ -5,6 +5,7 @@ public class Mesin {
 
         byte nliLembab, nliPH;
 
+        do {
         System.out.print("Masukkan Nilai Sensor kelembapan: ");
         nliLembab = sc.nextByte();
         System.out.print("Masukkan Nilai Sensor PH: ");
@@ -21,5 +22,7 @@ public class Mesin {
         }else if (nliPH >= 20){
             System.out.println("Alat Penyiram Pupuk Off!");
         }
+    
+    } while (nliLembab != 0 && nliPH != 0);
     }
 }

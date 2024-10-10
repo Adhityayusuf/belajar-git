@@ -20,6 +20,7 @@ public class Kalkulator {
         System.out.println("Nilai Input : " + a + operator + b);
         // operator + - * /
 
+        do {
         if (operator == '+') {
             // penjumlahan
             hasil = a + b;
@@ -45,5 +46,7 @@ public class Kalkulator {
             System.out.println("hasil tidak ditemukan");
         }
         System.out.println("\n  ====    TERIMA KASIH    ==== ");
+    } while (true);
+        
     }
 }
